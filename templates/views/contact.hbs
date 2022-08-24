@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <title></title>
+</head>
+<body>
+    {{>navbar}}
+    {{!-- section starts  --}}
+    
+    {{>contactus}}
+
+    
+    <script SameSite="None; Secure" src="https://static.landbot.io/landbot-3/landbot-3.0.0.js"></script>
+<script>
+  var myLandbot = new Landbot.Livechat({
+    configUrl: 'https://chats.landbot.io/v3/H-981171-05Q6ITLZ3JSMN43Y/index.json',
+  });
+</script>
+{{!-- Bot ends--}}
+</body>
+</html>

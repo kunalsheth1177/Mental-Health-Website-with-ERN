@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+
+html {
+  
+  scroll-behavior: smooth;
+}
+
+
+.navbar-style {
+  background-color: #f8f8fa;
+  box-shadow: 2px 4px 13px 1px rgba(8, 8, 8, 0.04);
+}
+
+#logo {
+  display: initial;
+  font-weight: 600;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #fd5c63;
+  text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+  padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #525252;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  padding-left: 1rem;
+  font-size: 1.9rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fd5c63;
+}
+
+
+
+.btn-style {
+  padding: 12px 25px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid #fff;
+  background: #ec615b;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+
